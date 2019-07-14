@@ -60,6 +60,6 @@ Note the first `flexget` is the container name, and the second is the CLI comman
 
 # Implementation
 
-This image is based on [`python:2-onbuild`](https://registry.hub.docker.com/_/python/) and consequently [`debian:jessie`](https://registry.hub.docker.com/u/library/debian/).
+This image is based on [`python:3.7-alpine`](https://registry.hub.docker.com/_/python/) and consequently [`alpine:latest`](https://hub.docker.com/_/alpine).
 
 As of now, the version of Flexget installed will soley depend on the latest version available in the [Python Package Index](https://pypi.python.org/pypi/FlexGet). I may change this in the future to [manually install](https://github.com/Flexget/Flexget#how-to-use-git-checkout) from [flexget:master](https://github.com/Flexget/Flexget) but for right now this suites my needs.
